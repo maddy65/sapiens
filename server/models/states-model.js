@@ -6,7 +6,6 @@ const State = new Schema(
         name : {type : String, required : true},
         capital : {type : String, required : true},
         language : {type : String, required : true},
-        //population : {type : Number, required : true},
         cm : {type : String, required : true},
     },
     { timestamps: true } 

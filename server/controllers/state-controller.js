@@ -12,10 +12,10 @@ getStates = async(req, res) =>{
                    .status(404)
                    .json({success : false, error : 'States Not found'})
         }
-        return res.status(200).json({ success: true, data: articles })
+        return res.status(200).json({ success: true, data: states })
     }).catch(err => console.log(err))
 }
 
 module.exports = {
     getStates
-}
+};
